@@ -1,0 +1,117 @@
+body{
+  background-color: #f0d6f0;
+  color: #555;
+  margin:0;
+  padding:0;
+  line-height: 1.6em;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+}
+
+#navbar{
+  background-color: #333;
+  color:white;
+}
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+#navbar li{
+  display: inline;
+}
+#navbar a{
+  color:white;
+  text-decoration: none;
+  padding-right:15px;
+  font-size: 18px;
+}
+
+#showcase{
+  text-align: center;
+  background-image: url('img30.jpg');
+  border-image-width: auto;
+  image-rendering: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed auto;
+  background-size: cover;
+  height: 500px;
+  min-height: 50px;
+  
+}
+
+#showcase h1{
+  color: #f3f0f0;
+  font-size: 50px;
+  line-height: 1.2em;
+}
+
+#main{
+  float: left;
+  width: 70%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+/** Some basic styles to make things look nice.**/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+p {
+	line-height: 1.45em;
+	font-size: 1.25rem;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.wp-block-columns {
+	display: flex;
+	margin: 20px 0;
+}
+
+.wp-block-column {
+	flex: 1;
+	margin: 0 20px;
+}
+
+@media (max-width: 764px) {
+	.wp-block-columns.has-3-columns {
+		flex-flow: row wrap;
+	}
+
+	.has-3-columns .wp-block-column:first-child {
+		flex-basis: 100%;
+	}
+}
+
+@media (max-width: 478px) {
+	.wp-block-columns.has-3-columns {
+		display: block;
+	}
+
+	.wp-block-column {
+		margin: 20px 0;
+	}
+}
+
+#main-footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  
+}
